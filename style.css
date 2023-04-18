@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* nav qismi start */
+
+nav{
+    background-color: #2F2F2F;
+}
+
+.nav_logo{
+    color: #FFFFFF6B;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav_span_a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav_list_a{
+    color: white;
+    opacity: 0.6;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.graf{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.nav_btn{
+    width: 150px;
+    height: 45px;
+    background-color: #F59B00;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+
+.nav_text_h3{
+    color: #F59B00;
+    font-family: Poppins;
+/* font-size: 17px; */
+font-weight: 500;
+text-transform: uppercase;
+}
+
+.nav_text_h2{
+    color: white;
+    font-family: Poppins;
+font-size: 50px;
+font-weight: 700;
+
+}
+
+.nav_text_span{
+    color:rgba(255, 255, 255, 0.5);
+   
+    
+}
+
+.nav_text_p{
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-size: 17px;
+}
+
+.nav_text_img{
+    /* /* position: absolute;
+width: 228.86px;
+height: 129.86px;
+left: 346px;
+top: 280px; */
+/*  */
+margin-top: 105px;
+margin-left: 25px; 
+
+}
+
+.nav_center_img{
+    width: 100%;
+}
+
+.nav_text_position_img{
+    position: absolute;
+width: 580px;
+height: 671px;
+left: 608px;
+top: 29px;
+}
+
+
+@media (max-width:576px) {
+    .list_item{
+        font-size: 10px;
+    }
+    .list{
+        justify-content: space-around;
+    }
+    .nav_end{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .nav_btn{
+        width: 100px;
+        height: 25px;
+        font-size: 14px;
+    }
+    .nav_text_h3{
+        font-size: 10px;
+    }
+
+    .nav_text_h2{
+        font-size: 25px;
+    }
+
+    .nav_text_position_img{
+        width: 250px;
+        height: 275px;
+        left: 30px;
+        top: 89px;
+    }
+
+    .nav_text_img{
+        width: 205px;
+    }
+}
+
+
+/* header qismi  */
+
+
+.list-header{
+    text-transform: capitalize;
+    color: rgba(47, 47, 47, 1);
+    opacity: 0.8;
+    font-weight: 400px;
+}
+
+.list-header :hover{
+
+    color: black;
+    opacity: 1;
+}
+
+.list-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ram{
+    border: 1px solid rgba(163, 163, 163, 1);
+    border-radius: 10px;
+}
+
+.bag{
+    width: 100%;
+}
+
+.header_position_img{
+    width: 100%;
+}
+
+.header_text_p{
+    color: rgba(47, 47, 47, 1);
+}
+.main_h2{
+    text-transform: capitalize;
+}
+
+.bags{
+    width: 100%;
+    position: relative;
+    top: 80px;
+}
+.dsp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.main_btn{
+    text-transform: capitalize;
+    color: rgba(245, 155, 0, 1);
+    border: 1px solid rgba(245, 155, 0, 1);
+    background-color: transparent;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+@media (max-width:576px) {
+    .list-header{
+        font-size: 10px;
+        justify-content: space-between;
+    }
+    .header_p_h4{
+        font-size: 18px;
+    }
+    .bags{
+        top: 0px;
+        /* flex-wrap: nowrap; */
+        justify-content: center;
+    }
+    .dsp{
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    
+}
+
+
+
+/* section qismi */
+
+section{
+    background-color: rgba(13, 12, 12, 0.6);
+    
+}
+
+.section_img{
+    opacity: 0.5;
+    width: 100%;
+    height: 500px;
+}
+
+.inputs{
+    /* background-color: rgba(47, 47, 47, 0.95); */
+    background-image: url(./img/sahara.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.section_h2{
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    /* gap: 110px; */
+    flex-wrap: wrap;
+}
+
+.section_h2{
+    text-transform: capitalize;
+}
+
+.one_inp , .two_inp{
+    height: 54px;
+width: 232px;
+left: 789px;
+top: 3625px;
+border-radius: 10px;
+border: 1px solid rgba(255, 255, 255, 1);
+background-color: rgb(52, 50, 50);
+outline: none;
+margin: 10px;
+padding: 5px;
+color: white;
+}
+
+
+.three_inp{
+    height: 54px;
+    width: 570px;
+    left: 789px;
+    top: 3625px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgb(52, 50, 50);
+    outline: none;
+    margin: 10px;
+    padding: 5px;  
+    color: white;
+}
+
+@media (max-width:576px) {
+    .inputs{
+        background-image: none;
+    }
+    .section_h2{
+        font-size: 18px;
+    }
+    .three_inp{
+        height: 34px;
+        width: 300px;
+        left: 789px;
+        top: 3625px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 1);
+        background-color: rgb(52, 50, 50);
+        outline: none;
+        margin: 10px;
+        padding: 5px;  
+        color: white;
+    }
+    .one_inp , .two_inp{
+        height: 34px;
+    width: 200px;
+    left: 789px;
+    top: 3625px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgb(52, 50, 50);
+    outline: none;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    }
+
+}
+
+
+/* footer qismi  */
+
+
+footer{
+    background-image: url(./img/footer_bg.png);
+}
+
+.footer_p , .footer_list_item{
+    color:rgb(185, 183, 183);
+    /* opacity: 0.7; */
+    text-transform: capitalize;
+}
+
+.footer_list_span{
+    color: white;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+opacity: 1;
+
+}
+
+.so{
+    width: 150px;
+}
+
+
+@media (max-width:576px) {
+    .footer_list_item{
+        font-size: 13px;
+        gap: 5px;
+    }
+    .footer_list_span{
+        font-size: 15px;
+    }
+    .footer_p{
+        font-size: 14px;
+    }
+}
+
