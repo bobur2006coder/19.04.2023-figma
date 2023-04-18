@@ -393,3 +393,21 @@ opacity: 1;
     }
 }
 
+
+/* hover bezak uchun */
+
+.bags:hover{
+    top: 0px;
+    /* width: 200px; */
+}
+
+.main_btn:hover{
+    background-color: #F59B00;
+    color: white;
+    transition: 0.7s;
+}
+
+.nav_list_a:hover{
+    color: cyan;
+    transition: 1s ease-in-out;
+}
