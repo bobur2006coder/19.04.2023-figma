@@ -52,13 +52,13 @@ nav{
 
 .graf{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-around;
 }
 
 .nav_btn{
-    width: 150px;
-    height: 45px;
+    padding: 7px 14px;
+    margin-left:10px;
     background-color: #F59B00;
     border: none;
     border-radius: 5px;
@@ -113,9 +113,8 @@ margin-left: 25px;
 
 .nav_text_position_img{
     position: absolute;
-width: 580px;
-height: 671px;
-left: 608px;
+height: 670px;
+left: 590px;
 top: 29px;
 }
 
@@ -250,22 +249,27 @@ top: 29px;
 
 /* section qismi */
 
-section{
+.colo-black{
     background-color: rgba(13, 12, 12, 0.6);
+    border-radius: 15px;
     
+    
+}
+
+.section_h2{
+font-weight: 700;
 }
 
 .section_img{
     opacity: 0.5;
-    width: 100%;
-    height: 500px;
+    width: 80%;
+    
 }
 
 .inputs{
     /* background-color: rgba(47, 47, 47, 0.95); */
-    background-image: url(./img/sahara.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+   
+    
 }
 
 .section_h2{
@@ -287,30 +291,28 @@ section{
 .one_inp , .two_inp{
     height: 54px;
 width: 232px;
-left: 789px;
-top: 3625px;
 border-radius: 10px;
-border: 1px solid rgba(255, 255, 255, 1);
+border: 1px solid #8a8a8a;
 background-color: rgb(52, 50, 50);
 outline: none;
 margin: 10px;
-padding: 5px;
+padding: 25px;
 color: white;
 }
 
 
 .three_inp{
+    width: 514px;
     height: 54px;
-    width: 570px;
-    left: 789px;
-    top: 3625px;
+   width: 100%;
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 1);
+    border: 1px solid #8a8a8a;
     background-color: rgb(52, 50, 50);
     outline: none;
     margin: 10px;
-    padding: 5px;  
+    padding: 25px;  
     color: white;
+    text-transform: capitalize;
 }
 
 @media (max-width:576px) {
@@ -396,10 +398,10 @@ opacity: 1;
 
 /* hover bezak uchun */
 
-.bags:hover{
+/* .bags:hover{
     top: 0px;
-    /* width: 200px; */
-}
+    
+} */
 
 .main_btn:hover{
     background-color: #F59B00;
